@@ -1,0 +1,22 @@
+package class1;
+import java.util.*;
+public class While
+{
+	public static void main(String args[])
+	{
+		int a=10;
+     Scanner s=new Scanner(System.in);
+   
+	while(a>0)
+		
+		
+	{
+		
+		System.out.println("enter the value");
+	     a=s.nextInt();
+		System.out.println( " its nagative value   "     +a);
+		
+	}
+	
+ }
+}
