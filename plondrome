@@ -1,0 +1,29 @@
+package class1;
+import java.util.*;
+public class polindromr
+{
+	public static void main(String args[])
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("enter valave");
+		int org=s.nextInt();
+		int rev=0,sep,dup;
+		dup=org;
+		while(dup>0)
+		{
+			sep=dup%10;
+			rev=(rev*10)+sep;
+			dup=dup/10;
+			System.out.println(rev);
+		}
+		if(org==rev)
+		{
+			System.out.println("its polindrome"+dup);
+			
+		}
+		else
+		{
+			System.out.println("its not polindreme"+dup);
+		}
+	}
+}
